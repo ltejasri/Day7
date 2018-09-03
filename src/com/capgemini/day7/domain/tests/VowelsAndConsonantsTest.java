@@ -13,9 +13,7 @@ class VowelsAndConsonantsTest {
 
 	@Test
 	void testVowelsAndConsonants() throws IOException {
-		File file = new File(
-				"C:\\Users\\ltejasri\\Desktop\\neeraj1.txt");
-
+		File file = new File("C:\\Users\\ltejasri\\Desktop\\teju1.txt");
 		assertEquals("Number of vowels = 10\nNumber of consonants = 13", VowelsAndConsonants.findVowelAndConsonant(file));
 	}
 

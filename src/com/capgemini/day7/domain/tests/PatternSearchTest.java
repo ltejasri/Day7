@@ -14,10 +14,9 @@ class PatternSearchTest {
 
 	@Test
 	void testPatternSearch() throws FileNotFoundException, IOException {
-		File file = new File(
-				"C:\\Users\\ltejasri\\Desktop\\neeraj.txt");
+		File file = new File("C:\\Users\\ltejasri\\Desktop\\teju2"+ ".txt");
 
-		assertEquals("Line number 1 : hii\n", PatternSearch.findString(file,"hii"));
+		assertEquals("Line number 4 : hi\n", PatternSearch.findString(file,"hi"));
 	}
 
 }

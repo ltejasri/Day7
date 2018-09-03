@@ -9,8 +9,8 @@ public class Linecount {
 	public int countlinesInFile(String fileLocation) throws IOException {
 		int count=0;
 		FileReader fr=new FileReader(fileLocation);
-		BufferedReader reader;
-		reader=new BufferedReader(fr);
+		BufferedReader reader = new BufferedReader(fr);
+		//reader=new BufferedReader(fr);
 		while(reader.readLine()!=null)
 			count++;
 		return count;

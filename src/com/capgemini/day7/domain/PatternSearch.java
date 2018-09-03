@@ -12,7 +12,7 @@ public class PatternSearch {
 		// TODO Auto-generated method stub
 		int lineCount=0;
 		String lines=null;
-		int flag=0;
+	int flag=0;
 		try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
 			String s=null;
 			while ((s = reader.readLine()) != null) {

@@ -15,7 +15,7 @@ class LineCountTestt {
 	{
 		Linecount l1=new Linecount();
 		
-		assertEquals(100, l1.countlinesInFile("C:\\Users\\ltejasri\\Desktop\\neeraj.txt"));
+		assertEquals(6, l1.countlinesInFile("C:\\Users\\ltejasri\\Desktop\\teju2.txt"));
 	}
 
 }

@@ -23,7 +23,7 @@ public class VowelsAndConsonants {
 		vowels.add('u');
 		int vowelsCount = 0;
 		int consonantCount = 0;
-		try (BufferedReader reader = new BufferedReader( new FileReader(file))) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
 			String s=null;
 			while ((s = reader.readLine()) != null) {
 				for(int i = 0;i < s.length(); i++)

@@ -42,8 +42,10 @@ public class ValidateDate {
 			// Date date=new SimpleDateFormat("dd/MM/yyyy").parse(string);
 
 			LocalDate d2 = (LocalDate.of(yy, mm, dd).plusDays(days));
+			
 
 			String str = "" + d2;
+			System.out.println(str);
 			return str.substring(8) + "/" + str.substring(5, 7) + "/" + str.substring(0, 4);
 			// return ""+d2;
 		}

@@ -10,7 +10,7 @@ class TodayDateTest {
 	@Test
 	void testformat() {
 
-		assertEquals("SATURDAY,SEPTEMBER 1,2018", TodayDate.format());
+		assertEquals("MONDAY,SEPTEMBER 3,2018", TodayDate.format());
 	}
 
 }

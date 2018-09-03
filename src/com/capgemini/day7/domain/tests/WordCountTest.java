@@ -13,9 +13,9 @@ class WordCountTest {
 
 	@Test
 	void test() throws IOException {
-		File file= new File("C:\\Users\\ltejasri\\Desktop\\neeraj.txt");
+		File file= new File("C:\\Users\\ltejasri\\Desktop\\teju1.txt");
 		//WordCount w1=new WordCount();
-		assertEquals(5,  WordCount.wordCounts(file));
+		assertEquals(4,  WordCount.wordCounts(file));
 	}
 
 }

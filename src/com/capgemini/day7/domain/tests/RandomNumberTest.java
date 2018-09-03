@@ -16,7 +16,7 @@ class RandomNumberTest {
 	@Test
 	void testRandomNumber() {
 	Random rand = new Random();
-	File file = new File("C:\\Users\\ltejasri\\Desktop\\neeraj.txt");{
+	File file = new File("C:\\Users\\ltejasri\\Desktop\\teju.txt");{
 	
 	try(PrintWriter print = new PrintWriter(file))
 	{
