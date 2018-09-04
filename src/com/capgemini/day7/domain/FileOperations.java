@@ -112,8 +112,7 @@ public class FileOperations {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		int size1 = queue1.size();
-		int size2 = queue2.size();
+		
 		if (queue1.equals(queue2)) {
 			System.out.println("Same");
 			return true;
